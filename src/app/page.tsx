@@ -1,6 +1,10 @@
 import Image from "next/image";
+import bcrypt from "bcryptjs";
 
 export default function Home() {
+  //  const salt = await bcrypt.genSalt(10);
+  //         const hashedPassword = await bcrypt.hash("12345", salt)
+  //         console.log(hashedPassword)
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
