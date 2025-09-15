@@ -92,6 +92,9 @@ export default function Login() {
         {loading ? "Logging in..." : "Login"}
       </button>
       <Link href="/signup">Signup</Link >
+      <br />
+      <Link href="/forgetpassword">Forget Password</Link >
+
 
     </div >
   )
