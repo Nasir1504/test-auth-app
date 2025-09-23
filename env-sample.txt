@@ -1,0 +1,3 @@
+MONGODB_URI="mongodb+srv://nasir:nasir%401504@cluster0.rdan0pu.mongodb.net/newauth?retryWrites=true&w=majority&appName=Cluster0"
+JWT_SECRET="mySuper$ecretKey123!@#"
+DOMAIN="http://localhost:3000"
